@@ -13,7 +13,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
 }
 
 .caja1 {
@@ -35,7 +43,8 @@ body {
 
 .Logo {
   display: flex;
-  width: 2%;
+  width: 40px;
+  height: auto;
   margin: 10px;
 }
 
@@ -94,8 +103,7 @@ footer {
   align-items: center;
   width: 100%;
   background-color: #000;
-  position: absolute;
-  bottom: 0;
+
 
 }
 
